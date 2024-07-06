@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 1.10;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-color:rgb(196, 105, 221);
+   padding-top:35px;
+   background-position:center;
+   background-size: 100%;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+
+header nav ul li a:hover {
+    background-color:grey;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #120234;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0, 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px 20px;
+    background-color: #ce1717;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 10px 10px lightblue;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    box-shadow:  10px; #120234;
+    background-color: #292121;
+    padding: 20px;
+    
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
